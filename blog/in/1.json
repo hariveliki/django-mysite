@@ -1,20 +1,13 @@
 {
-    "identifier": "a8fab720781d11ed9638c6b7e832900esap",
-    "enabled": true,
-    "family": "onboarding",
-    "categories": [
-        "onboardings"
-    ],
-    "groups": [],
+    "code": "1ed47df2ade568babdd2cd4fd9b43558local",
+    "family": "fashion_jacket",
+    "family_variant": "fashion_jacket_color_size",
     "parent": null,
+    "categories": [
+        "globus_women",
+        "segments"
+    ],
     "values": {
-        "onboarding_steps": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "on_hold_next_reaction_date"
-            }
-        ],
         "sap_transport_status": [
             {
                 "locale": null,
@@ -33,14 +26,14 @@
             {
                 "locale": null,
                 "scope": null,
-                "data": "blocked_for_transport"
+                "data": "ready_for_transport"
             }
         ],
         "webshop_transport_status": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "blocked_for_transport"
+                "data": "ready_for_transport"
             }
         ],
         "marketplace_transport_status": [
@@ -50,16 +43,217 @@
                 "data": "blocked_for_transport"
             }
         ],
-        "ean_list": [
+        "validation_results": [
             {
                 "locale": null,
                 "scope": null,
                 "data": [
                     {
-                        "ean": "3607171884599",
-                        "ean_type": "99",
-                        "is_main_ean": true
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_001",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_002",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_003",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, S' -> 'JACKE EVIE-OMB'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_004",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_005",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_006",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, M' -> 'JACKE EVIE-OMB'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_007",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_008",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_009",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, L' -> 'JACKE EVIE-OMB'"
                     }
+                ]
+            }
+        ],
+        "main_materials_table": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    {
+                        "percent": "10",
+                        "material": "pfe_material_feather",
+                        "row_number": "trn_001",
+                        "material_classification": "cla_inner_material"
+                    },
+                    {
+                        "percent": "90",
+                        "material": "pfe_material_duck_down",
+                        "row_number": "trn_002",
+                        "material_classification": "cla_inner_material"
+                    },
+                    {
+                        "percent": "100",
+                        "material": "pfe_material_pes_polyester",
+                        "row_number": "trn_003",
+                        "material_classification": "cla_lining_material"
+                    },
+                    {
+                        "percent": "100",
+                        "material": "pfe_material_pes_polyester",
+                        "row_number": "trn_004",
+                        "material_classification": "cla_outer_material"
+                    }
+                ]
+            }
+        ],
+        "sap_units_of_measurement": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    {
+                        "is_base_uom": true,
+                        "unit_of_measure": "CU"
+                    }
+                ]
+            }
+        ],
+        "cuff": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_elastic_cuff"
+                ]
+            }
+        ],
+        "clasps": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_zip_clasp"
+                ]
+            }
+        ],
+        "collar": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_hooded_collar"
+                ]
+            }
+        ],
+        "pockets": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_sipper_pockets"
+                ]
+            }
+        ],
+        "fittings": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_regular_fit"
+                ]
+            }
+        ],
+        "patterns": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_organic_design"
+                ]
+            }
+        ],
+        "segments": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "seg_women"
+                ]
+            }
+        ],
+        "interiors": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_compartment_zip_interior"
+                ]
+            }
+        ],
+        "product_types": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pty_down_jacket"
                 ]
             }
         ],
@@ -68,7 +262,7 @@
                 "locale": null,
                 "scope": null,
                 "data": [
-                    "tgr_men"
+                    "tgr_women"
                 ]
             }
         ],
@@ -77,43 +271,126 @@
                 "locale": null,
                 "scope": null,
                 "data": [
-                    "lfc_sap_data_only_needs_care"
+                    "lfc_product_live",
+                    "lfc_media_ready"
                 ]
+            }
+        ],
+        "textil_care_instructions": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_care_bleach_0",
+                    "pfe_care_iron_cold",
+                    "pfe_care_no_chemical_cleaning",
+                    "pfe_care_drying_reduced",
+                    "pfe_care_washing_gentle_30"
+                ]
+            }
+        ],
+        "product_features_assigned": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_color_matching_inner_lining",
+                    "pfe_elastic_cuff",
+                    "pfe_hooded_collar",
+                    "pfe_regular_fit",
+                    "pfe_removable_hood",
+                    "pfe_sipper_pockets"
+                ]
+            }
+        ],
+        "materials_for_webshopfilter": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_synthetic_mixed_fabric"
+                ]
+            }
+        ],
+        "all_product_types_webshop_cluster_associations": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "wcl_damen",
+                    "wcl_damen_damenmode",
+                    "wcl_damen_damenmode_jacken"
+                ]
+            }
+        ],
+        "hood": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_removable_hood"
+            }
+        ],
+        "brand": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "4787"
+            }
+        ],
+        "lining": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_color_matching_inner_lining"
             }
         ],
         "supplier": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "9000049"
+                "data": "942044"
             }
         ],
         "sap_season": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "N"
+                "data": "W"
             }
         ],
         "data_source": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "globus_sap_big_query"
+                "data": "censhare_migration_damen"
+            }
+        ],
+        "type_of_sale": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "tos_wholesale"
+            }
+        ],
+        "sleeve_length": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_long_sleeve_length"
             }
         ],
         "origin_country": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "TR"
+                "data": "CH"
             }
         ],
-        "suggested_brand": [
+        "sap_price_band": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "3764"
+                "data": "M"
             }
         ],
         "sap_article_kind": [
@@ -127,28 +404,21 @@
             {
                 "locale": null,
                 "scope": null,
-                "data": "02"
+                "data": "01"
             }
         ],
-        "sap_photo_status": [
+        "sap_article_group": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "5"
+                "data": "100"
             }
         ],
         "sap_article_status": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "RN"
-            }
-        ],
-        "suggested_supplier": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "9000049"
+                "data": "LN"
             }
         ],
         "tax_classification": [
@@ -158,283 +428,255 @@
                 "data": "1"
             }
         ],
-        "data_source_platform": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "globus_sap_big_query"
-            }
-        ],
-        "data_source_provider": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "globus_sap_big_query"
-            }
-        ],
         "sap_article_category": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "58"
-            }
-        ],
-        "matched_primary_color": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "pfe_003"
-            }
-        ],
-        "sap_article_kind_variant": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "TEXT"
-            }
-        ],
-        "sap_article_type_variant": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "02"
-            }
-        ],
-        "data_source_provider_type": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "cla_www_data_source_provider"
-            }
-        ],
-        "sap_article_status_variant": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "RN"
+                "data": "21"
             }
         ],
         "sap_product_group_hierarchy": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "120660563_1997_001"
+                "data": "110420442_0380_083"
             }
         ],
-        "sap_article_category_variant": [
+        "model": [
             {
-                "locale": null,
+                "locale": "de_CH",
                 "scope": null,
-                "data": "58"
+                "data": "\"Evie-Omb\""
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "\"Evie-Omb\""
             }
         ],
         "sap_sector": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "660"
+                "data": "420"
             }
         ],
-        "supplier_sku": [
+        "product_name": [
             {
-                "locale": null,
+                "locale": "de_CH",
                 "scope": null,
-                "data": "SHPPA01116"
+                "data": "1306543400 - Daunenjacke von MACKAGE"
+            },
+            {
+                "locale": "en_GB",
+                "scope": null,
+                "data": "1306543400 - Down jacket von [4787]"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "1306543400 - Veste en duvet von MACKAGE"
+            },
+            {
+                "locale": "it_CH",
+                "scope": null,
+                "data": "1306543400 - Piumino von [4787]"
             }
         ],
         "sap_sub_class": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "001"
-            }
-        ],
-        "supplier_size": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "36"
+                "data": "083"
             }
         ],
         "sap_main_class": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "1997"
-            }
-        ],
-        "supplier_color": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "ECRU, 11"
-            }
-        ],
-        "main_ean_number": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "3607171884599"
+                "data": "0380"
             }
         ],
         "sap_main_sector": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "20"
+                "data": "10"
             }
         ],
         "sap_sector_name": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "Casual"
+                "data": "Mainstream I"
+            }
+        ],
+        "webshop_title_1": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "MACKAGE"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "MACKAGE"
+            }
+        ],
+        "webshop_title_2": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "Daunenjacke \"Evie-Omb\""
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "Veste en duvet \"Evie-Omb\""
+            }
+        ],
+        "webshop_title_3": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "Daunenjacke"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "Doudoune"
             }
         ],
         "sap_product_group": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "120660563"
-            }
-        ],
-        "found_product_name": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
+                "data": "110420442"
             }
         ],
         "sap_sub_class_name": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "Initial"
+                "data": "Mackage"
             }
         ],
         "sap_main_class_name": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "Sandro Men"
-            }
-        ],
-        "found_product_number": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "1316263301"
+                "data": "Divers Mainstream"
             }
         ],
         "sap_main_sector_name": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "Herren-Mode"
+                "data": "Damenmode"
             }
         ],
-        "supplier_description": [
-            {
-                "locale": "de_CH",
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
-            }
-        ],
-        "data_source_size_value": [
+        "data_source_size_model": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "36"
+                "data": "globus:pim.product.size-model.international"
+            }
+        ],
+        "data_source_product_type": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Daunenjacke"
             }
         ],
         "data_source_classification": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "Herren-Mode"
+                "data": "globus:pim.category.damen.jacken"
             }
         ],
-        "description_supplier_color": [
+        "sap_collecting_item_number": [
             {
-                "locale": "de_CH",
+                "locale": null,
                 "scope": null,
-                "data": "ECRU, 11"
+                "data": "1306543400"
+            }
+        ],
+        "akeneo_root_product_model_id": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "1ed47df2ade568babdd2cd4fd9b43558local"
             }
         ],
         "sap_product_short_description": [
             {
                 "locale": "de_CH",
                 "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
+                "data": "JACKE EVIE-OMB"
             },
             {
                 "locale": "fr_CH",
                 "scope": null,
-                "data": "E23NEW ALPHA COTTON, écru , 36"
+                "data": "JACKE EVIE-OMB"
             },
             {
                 "locale": "it_CH",
                 "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
+                "data": "JACKE EVIE-OMB"
             }
         ],
-        "found_collectible_product_number": [
+        "back_length": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "1316263300"
-            }
-        ],
-        "onboarder_product_type_search_text": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON ECRU 36"
-            }
-        ],
-        "sap_product_short_description_variant": [
-            {
-                "locale": "de_CH",
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
-            },
-            {
-                "locale": "fr_CH",
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON, écru , 36"
-            },
-            {
-                "locale": "it_CH",
-                "scope": null,
-                "data": "E23NEW ALPHA COTTON, ecru , 36"
+                "data": {
+                    "amount": "57.0000",
+                    "unit": "CENTIMETER"
+                }
             }
         ],
         "season_year": [
             {
                 "locale": null,
                 "scope": null,
-                "data": 9999
+                "data": 2022
             }
         ],
-        "sap_minimum_procurement_quantity": [
+        "sap_latest_season_year": [
             {
                 "locale": null,
                 "scope": null,
-                "data": 0
+                "data": 2022
             }
         ],
-        "sap_active_from": [
+        "is_webshop_gwp": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "2022-12-09T00:00:00+00:00"
+                "data": false
             }
         ],
-        "sap_active_until": [
+        "sap_is_web_article": [
             {
                 "locale": null,
                 "scope": null,
-                "data": "9999-12-31T00:00:00+00:00"
+                "data": true
+            }
+        ],
+        "block_galaxus_output": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": false
+            }
+        ],
+        "webshop_completeness": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": true
             }
         ],
         "sap_web_valid_to": [
@@ -448,61 +690,12 @@
             {
                 "locale": null,
                 "scope": null,
-                "data": "2022-12-14T00:00:00+00:00"
-            }
-        ],
-        "next_run_for_www_information": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "2023-02-27T00:00:00+00:00"
-            }
-        ],
-        "sap_is_web_article": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": true
-            }
-        ],
-        "webshop_completeness": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": true
-            }
-        ],
-        "translation_needed_variant": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": false
-            }
-        ],
-        "webshop_completeness_variant": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": true
-            }
-        ],
-        "feedback_onboarding_process": [
-            {
-                "locale": null,
-                "scope": null,
-                "data": "No product type suggested!"
-            }
-        ],
-        "product_information_unstructured": [
-            {
-                "locale": null,
-                "scope": null,
-                "data":"{\"ArticleId\": \"1316263301\", \"ChangeDate\": \"2023-02-17 06:59:48\", \"MatlDesc\": \"E23NEW ALPHA COTTON, ecru , 36\", \"Ushorttext\": \"E23NEW ALPHA COTTON, ECRU , 36\", \"MatlGroup\": \"120660563\", \"ArticleGroup\": \"\", \"ResponsibilityID\": \"998\", \"MatlType\": \"TEXT\", \"MatlCat\": \"02\", \"MatlCatDesc\": \"Variante\", \"ValidFrom\": \"2022-12-09 00:00:00\", \"ValidTo\": \"9999-12-31 00:00:00\", \"LiqDate\": \"9999-12-31 00:00:00\", \"PurStatusValidFrom\": \"2018-03-27 00:00:00\", \"Class\": \"1997\", \"ClassDesc\": \"Sandro Men\", \"Subclass\": \"001\", \"SubclassDesc\": \"Initial\", \"MainSector\": \"20\", \"MainSectorDesc\": \"Herren-Mode\", \"Sector\": \"660\", \"SectorDesc\": \"Casual\", \"ArticleCategory\": \"58\", \"ArticleCategoryDesc\": \"Konsignation (Strecke)\", \"ProdHier\": \"\", \"ProdHierDesc\": \"\", \"PurStatus\": \"RN\", \"PurStatusDesc\": \"Regul\ärer Artikel ND\", \"EanUpc\": \"3607171884599\", \"MinPoQty\": \"0\", \"MinPoVal\": \"0\", \"IsWebArticle\": \"X\", \"WebPvalidfrom\": \"2022-12-14 00:00:00\", \"WebPvalidto\": \"9999-12-31 00:00:00\", \"BrandId\": \"3764\", \"BrandIdDesc\": \"SANDRO\", \"BrandType\": \"2\", \"BrandTypeDesc\": \"Herstellermarke\", \"IndSector\": \"1\", \"Season\": \"N\", \"SeasonYr\": \"9999\", \"ShelfLife\": \"0\", \"MinRemLife\": \"0\", \"ConfMatl\": \"1316263300\", \"VendorId\": \"9000049\", \"PurGroup\": \"\", \"VendMat\": \"SHPPA01116\", \"SupplFrom\": \"None\", \"SupplTo\": \"None\", \"PriceBand\": \"\", \"PriceBandDesc\": \"\", \"BaseUom\": \"CU\", \"Currency\": \"\", \"Color\": \"pfe_003\", \"ColorDesc\": \"ecru\", \"Size1\": \"SANDRO_36\", \"Size1Desc\": \"36\", \"ActiveFrom\": \"\", \"ActiveTo\": \"\", \"ConsumptionPeriod\": \"0\", \"ReportingDeadline\": \"0\", \"MinRemainTime\": \"0\", \"OldMatNo\": \"\", \"FollowUpArticle\": \"\", \"SaveBatch\": \"None\", \"SerialNo\": \"\", \"BundleNo\": \"\", \"BundleId1\": \"\", \"BundleId2\": \"\", \"NoGroup\": \"False\", \"CreatedOn\": \"2022-12-09 00:00:00\", \"LastUpdate\": \"2023-02-17 08:05:18.399305\", \"ArticleId_1\": \"1316263301\", \"ChangeDate_1\": \"2023-02-17 06:59:48\", \"MatlDescDe\": \"E23NEW ALPHA COTTON, ecru , 36\", \"MatlDescIt\": \"E23NEW ALPHA COTTON, ecru , 36\", \"MatlDescFr\": \"E23NEW ALPHA COTTON, \écru , 36\", \"Photo\": \"\", \"PhotoStatus\": \"5\", \"VendorColorDesc\": \"ECRU, 11\", \"VendorSizeDesc\": \"36\", \"FiberCode1\": \"\", \"FiberCode2\": \"\", \"FiberCode3\": \"\", \"FiberCode4\": \"\", \"FiberCode5\": \"\", \"FiberPart1\": \"000\", \"FiberPart2\": \"\", \"FiberPart3\": \"000\", \"FiberPart4\": \"000\", \"FiberPart5\": \"000\", \"QuantityPerUom\": \"1\", \"TaxClass\": \"1\", \"MtposMara\": \"NORM\", \"SaleFromAge\": \"00\", \"CountryOrigine\": \"TR\", \"NetCont\": \"0\", \"GrossCont\": \"0\", \"ContUnit\": \"\", \"CompUnit\": \"0\", \"PosLocked\": \"00\", \"DrinkingMaturityFrom\": \"\", \"DrinkingMaturityTo\": \"\", \"IsEcomDrop\": \"\", \"BioOrganicOrigin\": \"\", \"BioOrganicCert\": \"\", \"Focus\": \"\", \"PresentTypeSite\": \"\", \"SpecArticleProperty\": \"\", \"WineAccPlanNo\": \"\", \"WineAccContent\": \"0\", \"WineAccVintage\": \"\", \"WineAccAlcoholContent\": \"0\", \"WineCut\": \"\", \"BaseUom_1\": \"\", \"ProgramDesc\": \"\", \"FreeCharValue\": \"\", \"LastUpdate_1\": \"2023-02-17 08:05:12.760441\", \"Eans\": \"3607171884599:CU:true:01\", \"productType\": \"Herren-Mode E23NEW ALPHA COTTON, ecru , 36  Initial\", \"MatlGroup_Class_Subclass\": \"120660563_1997_001\"}"
+                "data": "2022-07-15T00:00:00+00:00"
             }
         ]
     },
-    "created": "2022-12-10T00:02:54+00:00",
-    "updated": "2023-02-17T12:21:21+00:00",
+    "created": "2022-10-08T19:36:20+00:00",
+    "updated": "2023-02-01T13:11:03+00:00",
     "associations": {
         "product_groups": {
             "products": [],

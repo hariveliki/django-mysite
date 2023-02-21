@@ -11,42 +11,81 @@ BASE_DIR = Path(__file__).resolve().parent
 
 all_posts = [
     {
-        "slug": "chat-jacke",
-        "image": "jacke.png",
-        "author": "Haris",
-        "date": date(2021, 7, 21),
-        "title": "Test",
-        "desc": "CLAUDIE PIERLOT Jacke silberfarben"
-    },
-    {
-        "slug": "chat-mantel",
-        "image": "mantel.png",
-        "author": "Haris",
-        "date": date(2022, 3, 10),
-        "title": "Dieses Kleid von Ana Alcazar ist der perfekte Begleiter für jeden Casual Anlass.\nDer Basic Style wird durch ein grafisches Muster aufgewertet, während die Passform und der Schnitt einen Straight Fit bieten. Der Rundhals Ausschnitt wird durch Knöpfe verschlossen und der Rock fällt in Midirock Länge. Die Ärmel sind lang und machen das Kleid zu einem idealen Begleiter für Damen",
-        "desc": "DUVETICA Daunenmantel \"Albaldah\" beige",
-        "content": """INPUT
-        Create a product description in german for an online shop using following attributes: 
-        Produkt Typen : Kleid
-        Zielgruppen : Damen
-        Marke : Ana Alcazar
-        Verschluss : mit Knöpfen
-        Ausschnitt / Kragenform : mit Rundhals Ausschnitt
-        Passform / Schnitt : Straight Fit
-        Musterung : mit grafischem Muster
-        Rocklänge : In Midirock Länge
-        Ärmellänge : mit Langarm
-        Stilrichtung : Basic Style
-        Thematik ## Fashion : für den Casual Anlass
-        """
-    },
-    {
-        "slug": "chat-daunenjacke",
+        "slug": "daunenjacke",
         "image": "daunenjacke.png",
         "author": "Haris",
+        "date": date(2021, 7, 21),
+        "title": """
+        Diese stylische Daunenjacke für Damen der Marke MACKAGE macht stets eine gute Figur. Sie hat eine Regular Fit Passform und eine Rückenlänge von 53 cm. Der Verschluss ist ein praktischer Reissverschluss, während sich hinter dem Kapuzenkragen eine abnehmbare Kapuze verbirgt. Elastische Bündchen an den Armabschlüssen machen das Design komplett. Zudem verfügt die Jacke über ein farblich passendes Innenfutter und ein organischeres Muster. Für noch mehr Komfort sorgen die Reissverschlusstaschen sowie ein Fach mit Reissverschluss im Inneren. Mit ihrer Ärmellänge von 65 cm bietet diese Jacke ein tolles Trageerlebnis.
+        """,
+        "excerpt": "There's nothing like the views you get when hiking in the mountains! And I wasn't even prepared for what happened whilst I was enjoying the view!",
+        "content": """
+        INPUT:
+        Create a product description in german for an online shop using following attributes: 
+        Produkt Typen : Daunenjacke
+        Zielgruppen : Damen
+        Marke : MACKAGE
+        Rückenlänge : 
+        Verschluss : mit Reissverschluss
+        Ausschnitt / Kragenform : mit Kapuzenkragen
+        Armabschluss : Armabschluss mit elastischen Bündchen
+        Passform / Schnitt : Regular Fit
+        Kapuze : mit abnehmbarer Kapuze
+        Innenausstattung : Innenausstattung mit Fach mit Reissverschluss
+        Futter : mit farblich passendem Innenfutter
+        Musterung : mit organischem Muster
+        Taschen : mit Reissverschlusstaschen
+        Ärmellänge : mit Langarm
+        """,
+        "foo": "",
+        "boo": "MACKAGE Daunenjacke \"Evie-Omb\" orange"
+    },
+    {
+        "slug": "jacke",
+        "image": "jacke.png",
+        "author": "Haris",
+        "date": date(2022, 3, 10),
+        "title": "Diese Jacke von CLAUDIE PIERLOT ist der perfekte Begleiter um dein Outfit zu vervollständigen! Der Regular Fit sorgt für einen angenehmen Tragekomfort und das Hahnentritt Gewebe mit typischer Musterung macht den Look stilvoll und trendy. Der Schnitt beeindruckt durch seinen Hemdkragen und die aufgesetzten Taschen, während der Verschluss durch Knöpfe unterstützt wird. Mit einer Länge von 1m72 und der Größe 36 ist dieses Modell das Richtige für dein neues Lieblingsstück im Stil des Trendstyle mit Karo Muster!",
+        "excerpt": "Did you ever spend hours searching that one error in your code? Yep - that's what happened to me yesterday...",
+        "content": """
+        Create a product description in german for an online shop using following attributes: 
+        Produkt Typen : Jacke
+        Zielgruppen : Damen
+        Marke : CLAUDIE PIERLOT
+        Verschluss : mit Knöpfen
+        Ausschnitt / Kragenform : mit Hemdkragen
+        Beschreibung : Das Model ist 1m72 groß und trägt Größe 36
+        Passform / Schnitt : Regular Fit
+        Musterung : mit Karo Muster
+        Taschen : mit aufgesetzten Taschen
+        Ärmellänge : mit Langarm
+        Stilrichtung : Trend Style
+        Webart : Hahnentritt Gewebe mit typischer Musterung
+        """,
+        "boo": "CLAUDIE PIERLOT Jacke silberfarben"
+    },
+    {
+        "slug": "mantel",
+        "image": "mantel.png",
+        "author": "Haris",
         "date": date(2020, 8, 5),
-        "title": "Test",
-        "desc": "MACKAGE Daunenjacke \"Evie-Omb\" orange"
+        "title": """
+        Der Duvetica Damen Daunenmantel ist ein Must-Have für jede Fashionista. Er verfügt über einen Stehkragen und einen Reissverschluss, sowie zwei Reissverschlusstaschen. Der Mantel hat ein unifarbenes Design, eine Wassersäule von 10.000 mm und langem Arm. Machen Sie Ihren Look komplett mit dem stilvollen Damen Daunenmantel von Duvetica!
+        """,
+        "excerpt": "-",
+        "content": """
+        Create a product description in german for an online shop using following attributes: 
+        Produkt Typen : Daunenmantel
+        Zielgruppen : Damen
+        Marke : Duvetica
+        Verschluss : mit Reissverschluss
+        Ausschnitt / Kragenform : mit Stehkragen
+        Musterung : Unifarben
+        Taschen : mit Reissverschlusstaschen
+        Ärmellänge : mit Langarm
+        Ausstattung ## Fashion : ist Wasserabweisend
+        """,
+        "boo": "DUVETICA Daunenmantel \"Albaldah\" beige"
     }
 ]
 

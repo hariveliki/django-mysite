@@ -1,0 +1,710 @@
+{
+    "code": "1ed47df2ade568babdd2cd4fd9b43558local",
+    "family": "fashion_jacket",
+    "family_variant": "fashion_jacket_color_size",
+    "parent": null,
+    "categories": [
+        "globus_women",
+        "segments"
+    ],
+    "values": {
+        "sap_transport_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "transported"
+            }
+        ],
+        "media_transport_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "blocked_for_transport"
+            }
+        ],
+        "store_transport_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "ready_for_transport"
+            }
+        ],
+        "webshop_transport_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "ready_for_transport"
+            }
+        ],
+        "marketplace_transport_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "blocked_for_transport"
+            }
+        ],
+        "validation_results": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_001",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_002",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_003",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen S 36*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, S' -> 'JACKE EVIE-OMB'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_004",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_005",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_006",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen M 38*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, M' -> 'JACKE EVIE-OMB'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von Übersetzungen werden benötigt ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_007",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'False' -> 'None'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikeltyp  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_008",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'02' -> '01'"
+                    },
+                    {
+                        "tags": "inheritance",
+                        "message": "das Abweichen von SAP Artikelkurztext  ## Variante",
+                        "severity": "warning",
+                        "created_at": "2023-01-10 05:45:38",
+                        "row_number": "trn_009",
+                        "hierarchy_level": "Variante orange Jacken & Mäntel Damen L 40*",
+                        "message_additional": "'JACKE EVIE-OMB, orange, L' -> 'JACKE EVIE-OMB'"
+                    }
+                ]
+            }
+        ],
+        "main_materials_table": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    {
+                        "percent": "10",
+                        "material": "pfe_material_feather",
+                        "row_number": "trn_001",
+                        "material_classification": "cla_inner_material"
+                    },
+                    {
+                        "percent": "90",
+                        "material": "pfe_material_duck_down",
+                        "row_number": "trn_002",
+                        "material_classification": "cla_inner_material"
+                    },
+                    {
+                        "percent": "100",
+                        "material": "pfe_material_pes_polyester",
+                        "row_number": "trn_003",
+                        "material_classification": "cla_lining_material"
+                    },
+                    {
+                        "percent": "100",
+                        "material": "pfe_material_pes_polyester",
+                        "row_number": "trn_004",
+                        "material_classification": "cla_outer_material"
+                    }
+                ]
+            }
+        ],
+        "sap_units_of_measurement": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    {
+                        "is_base_uom": true,
+                        "unit_of_measure": "CU"
+                    }
+                ]
+            }
+        ],
+        "cuff": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_elastic_cuff"
+                ]
+            }
+        ],
+        "clasps": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_zip_clasp"
+                ]
+            }
+        ],
+        "collar": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_hooded_collar"
+                ]
+            }
+        ],
+        "pockets": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_sipper_pockets"
+                ]
+            }
+        ],
+        "fittings": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_regular_fit"
+                ]
+            }
+        ],
+        "patterns": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_organic_design"
+                ]
+            }
+        ],
+        "segments": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "seg_women"
+                ]
+            }
+        ],
+        "interiors": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_compartment_zip_interior"
+                ]
+            }
+        ],
+        "product_types": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pty_down_jacket"
+                ]
+            }
+        ],
+        "multi_target_group": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "tgr_women"
+                ]
+            }
+        ],
+        "product_lifecycles": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "lfc_product_live",
+                    "lfc_media_ready"
+                ]
+            }
+        ],
+        "textil_care_instructions": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_care_bleach_0",
+                    "pfe_care_iron_cold",
+                    "pfe_care_no_chemical_cleaning",
+                    "pfe_care_drying_reduced",
+                    "pfe_care_washing_gentle_30"
+                ]
+            }
+        ],
+        "product_features_assigned": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_color_matching_inner_lining",
+                    "pfe_elastic_cuff",
+                    "pfe_hooded_collar",
+                    "pfe_regular_fit",
+                    "pfe_removable_hood",
+                    "pfe_sipper_pockets"
+                ]
+            }
+        ],
+        "materials_for_webshopfilter": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "pfe_synthetic_mixed_fabric"
+                ]
+            }
+        ],
+        "all_product_types_webshop_cluster_associations": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": [
+                    "wcl_damen",
+                    "wcl_damen_damenmode",
+                    "wcl_damen_damenmode_jacken"
+                ]
+            }
+        ],
+        "hood": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_removable_hood"
+            }
+        ],
+        "brand": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "4787"
+            }
+        ],
+        "lining": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_color_matching_inner_lining"
+            }
+        ],
+        "supplier": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "942044"
+            }
+        ],
+        "sap_season": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "W"
+            }
+        ],
+        "data_source": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "censhare_migration_damen"
+            }
+        ],
+        "type_of_sale": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "tos_wholesale"
+            }
+        ],
+        "sleeve_length": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "pfe_long_sleeve_length"
+            }
+        ],
+        "origin_country": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "CH"
+            }
+        ],
+        "sap_price_band": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "M"
+            }
+        ],
+        "sap_article_kind": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "TEXT"
+            }
+        ],
+        "sap_article_type": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "01"
+            }
+        ],
+        "sap_article_group": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "100"
+            }
+        ],
+        "sap_article_status": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "LN"
+            }
+        ],
+        "tax_classification": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "1"
+            }
+        ],
+        "sap_article_category": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "21"
+            }
+        ],
+        "sap_product_group_hierarchy": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "110420442_0380_083"
+            }
+        ],
+        "model": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "\"Evie-Omb\""
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "\"Evie-Omb\""
+            }
+        ],
+        "sap_sector": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "420"
+            }
+        ],
+        "product_name": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "1306543400 - Daunenjacke von MACKAGE"
+            },
+            {
+                "locale": "en_GB",
+                "scope": null,
+                "data": "1306543400 - Down jacket von [4787]"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "1306543400 - Veste en duvet von MACKAGE"
+            },
+            {
+                "locale": "it_CH",
+                "scope": null,
+                "data": "1306543400 - Piumino von [4787]"
+            }
+        ],
+        "sap_sub_class": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "083"
+            }
+        ],
+        "sap_main_class": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "0380"
+            }
+        ],
+        "sap_main_sector": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "10"
+            }
+        ],
+        "sap_sector_name": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Mainstream I"
+            }
+        ],
+        "webshop_title_1": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "MACKAGE"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "MACKAGE"
+            }
+        ],
+        "webshop_title_2": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "Daunenjacke \"Evie-Omb\""
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "Veste en duvet \"Evie-Omb\""
+            }
+        ],
+        "webshop_title_3": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "Daunenjacke"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "Doudoune"
+            }
+        ],
+        "sap_product_group": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "110420442"
+            }
+        ],
+        "sap_sub_class_name": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Mackage"
+            }
+        ],
+        "sap_main_class_name": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Divers Mainstream"
+            }
+        ],
+        "sap_main_sector_name": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Damenmode"
+            }
+        ],
+        "data_source_size_model": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "globus:pim.product.size-model.international"
+            }
+        ],
+        "data_source_product_type": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "Daunenjacke"
+            }
+        ],
+        "data_source_classification": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "globus:pim.category.damen.jacken"
+            }
+        ],
+        "sap_collecting_item_number": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "1306543400"
+            }
+        ],
+        "akeneo_root_product_model_id": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "1ed47df2ade568babdd2cd4fd9b43558local"
+            }
+        ],
+        "sap_product_short_description": [
+            {
+                "locale": "de_CH",
+                "scope": null,
+                "data": "JACKE EVIE-OMB"
+            },
+            {
+                "locale": "fr_CH",
+                "scope": null,
+                "data": "JACKE EVIE-OMB"
+            },
+            {
+                "locale": "it_CH",
+                "scope": null,
+                "data": "JACKE EVIE-OMB"
+            }
+        ],
+        "back_length": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": {
+                    "amount": "57.0000",
+                    "unit": "CENTIMETER"
+                }
+            }
+        ],
+        "season_year": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": 2022
+            }
+        ],
+        "sap_latest_season_year": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": 2022
+            }
+        ],
+        "is_webshop_gwp": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": false
+            }
+        ],
+        "sap_is_web_article": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": true
+            }
+        ],
+        "block_galaxus_output": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": false
+            }
+        ],
+        "webshop_completeness": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": true
+            }
+        ],
+        "sap_web_valid_to": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "9999-12-31T00:00:00+00:00"
+            }
+        ],
+        "sap_web_valid_from": [
+            {
+                "locale": null,
+                "scope": null,
+                "data": "2022-07-15T00:00:00+00:00"
+            }
+        ]
+    },
+    "created": "2022-10-08T19:36:20+00:00",
+    "updated": "2023-02-01T13:11:03+00:00",
+    "associations": {
+        "product_groups": {
+            "products": [],
+            "product_models": [],
+            "groups": []
+        }
+    },
+    "quantified_associations": {},
+    "metadata": {
+        "workflow_status": "working_copy"
+    }
+}
